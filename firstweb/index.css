@@ -3,11 +3,7 @@ img {
 }
 
 h1 {
-	font-size:50px;
+	font-size:500px;
 	
 }
 
-h1 .small-text {
-	text-decoration:italic;
-	font-size:12px;
-}
