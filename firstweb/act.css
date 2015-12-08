@@ -5,11 +5,9 @@ body{
 
 
 h1 {
+	font-size: 50px;
 	text-align:center;
 }
-
-
-
 
 
 
@@ -36,4 +34,9 @@ h1 .blood{
        4px 38px 1px #FE0000,
        4px 40px 2px #FF0000;
 
+}
+
+
+p {
+	text-align:center;
 }
