@@ -17,6 +17,42 @@ img {
 	
 }
 
+nav ul{
+	
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:fixed;
+	
+}
+
+
+li {
+    display: inline;
+	float:left;
+	
+}
+
+
+
+nav ul li a{
+	display:block;
+	padding:8px;
+	width:500px;
+	background-color:pink;
+	
+}
+
+nav ul li a:hover {
+	background-color:gray;
+	color:white;
+}
+.active{
+	background-color:purple;
+	color:white;
+}
+
+
 h1 {
 	font-size:50px;
 	text-align: center;
@@ -65,7 +101,9 @@ h1 .title {
     -8px 7px #cdd2d5;
   }
   
-  
+#maincontext {
+	padding-top:50px;
+}  
   
 
  
