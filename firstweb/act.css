@@ -7,11 +7,6 @@ body{
 h1 {
 	font-size: 60px;
 	text-align:center;
-}
-
-
-
-h1 .blood{
 	color:silver;
        text-shadow:
        4px 4px 1px #300000,
@@ -33,8 +28,10 @@ h1 .blood{
        4px 36px 1px #FD0000,
        4px 38px 1px #FE0000,
        4px 40px 2px #FF0000;
-
 }
+
+
+
 
 
 p{
