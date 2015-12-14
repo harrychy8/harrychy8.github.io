@@ -100,8 +100,12 @@ nav a {
 
 
 #maincontext {
-	padding-top:50px;
+	padding-top:60px;
 }  
   
-
+@media screen and (max-width: 600px)  {
+	nav  {
+		display: none
+	}
+}
  
