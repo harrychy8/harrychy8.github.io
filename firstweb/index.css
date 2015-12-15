@@ -18,10 +18,13 @@ img {
 }
 
 nav ul{
-	
+	top:0;
+	left:0;
+	right:0;
 	list-style-type:none;
 	margin:0;
 	padding:0;
+	max-width:100%;
 	position:fixed;
 	z-index: +1;
 }
@@ -36,9 +39,10 @@ li {
 
 
 nav ul li a{
+	color: black;
 	display:block;
 	padding:8px;
-	width:500px;
+	width:510px;
 	background-color:pink;
 	
 }
@@ -58,26 +62,26 @@ h1 {
 	font-size:50px;
 	text-align: center;
 	font-family: freight-sans-pro, sans-serif;
-  font-weight: 900;
+    font-weight: 900;
   
-  color: #202c2d;
-  text-shadow:
-    0 1px #808d93,
-    -1px 0 #cdd2d5,
-    -1px 2px #808d93,
-    -2px 1px #cdd2d5,
-    -2px 3px #808d93,
-    -3px 2px #cdd2d5,
-    -3px 4px #808d93,
-    -4px 3px #cdd2d5,
-    -4px 5px #808d93,
-    -5px 4px #cdd2d5,
-    -5px 6px #808d93,
-    -6px 5px #cdd2d5,
-    -6px 7px #808d93,
-    -7px 6px #cdd2d5,
-    -7px 8px #808d93,
-    -8px 7px #cdd2d5;
+    color: #202c2d;
+    text-shadow:
+		0 1px #808d93,
+		-1px 0 #cdd2d5,
+		-1px 2px #808d93,
+		-2px 1px #cdd2d5,
+		-2px 3px #808d93,
+		-3px 2px #cdd2d5,
+		-3px 4px #808d93,
+		-4px 3px #cdd2d5,
+		-4px 5px #808d93,
+		-5px 4px #cdd2d5,
+		-5px 6px #808d93,
+		-6px 5px #cdd2d5,
+		-6px 7px #808d93,
+		-7px 6px #cdd2d5,
+		-7px 8px #808d93,
+		-8px 7px #cdd2d5;
 	
 }
 
@@ -93,19 +97,21 @@ p  {
 	text-align: center
 	 
 }
-nav a {
-	color: black;
-	
-}
-
 
 #maincontext {
-	padding-top:60px;
+	padding-top:5%;
 }  
   
 @media screen and (max-width: 600px)  {
 	nav  {
 		display: none
+	}
+	img {
+		max-width:100%;
+		height:auto;
+		margin-left:-50%;
+	
+		
 	}
 }
  
