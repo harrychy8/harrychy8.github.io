@@ -26,13 +26,14 @@ nav ul{
 	padding:0;
 	max-width:100%;
 	position:fixed;
-	z-index: +1;
+	z-index: 1;
 }
 
 
 li {
     display: inline;
 	float:left;
+	width:33.333333333333333333334%
 	
 }
 
@@ -44,6 +45,7 @@ nav ul li a{
 	padding:8px;
 	width:510px;
 	background-color:pink;
+	transition:background 1s;
 	
 }
 
@@ -103,14 +105,11 @@ p  {
 }  
   
 @media screen and (max-width: 600px)  {
-	nav  {
-		display: none
-	}
+	
 	img {
-		max-width:100%;
+		max-width: 92%;
 		height:auto;
 		margin-left:-50%;
-	
 		
 	}
 }
